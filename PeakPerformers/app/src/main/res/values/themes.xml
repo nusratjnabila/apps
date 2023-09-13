@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PeakPerformers" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+       <item name="colorPrimary">#9B74DF</item>
+    </style>
+
+    <style name="Theme.PeakPerformers" parent="Base.Theme.PeakPerformers" />
+
+    <style name="Theme.PeakPerformers.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PeakPerformers.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PeakPerformers.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
